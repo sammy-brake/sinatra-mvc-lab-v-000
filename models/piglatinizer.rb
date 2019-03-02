@@ -27,12 +27,15 @@ class PigLatinizer
             # beg_const << word[1]
             word[0..1] = ''
             latin_word = word + beg_const + "ay"
+<<<<<<< HEAD
           else
             if word[3].match(/^[aeiou]/) || word.length ==4
               beg_const = word[0..2]
               word[0..2] = ''
               latin_word = word + beg_const + "ay"
             end
+=======
+>>>>>>> 967cd4e1cc1aa765333784de7b62ee632f637367
           end
         end
       end
